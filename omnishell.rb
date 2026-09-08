@@ -5,12 +5,12 @@
 class Omnishell < Formula
   desc "Modular, declarative terminal configuration for macOS and Linux"
   homepage "https://github.com/JtheGunner/omnishell"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/JtheGunner/omnishell/releases/download/v0.3.0/omnishell_darwin_amd64.tar.gz"
-      sha256 "2113c71d1ac2740b33a5b6c16534d7672fe7b2d29bee1247e7ddd9ad9b112c64"
+      url "https://github.com/JtheGunner/omnishell/releases/download/v0.3.1/omnishell_darwin_amd64.tar.gz"
+      sha256 "9e43831be4e9a92ea14ac5441f110ef5426531af1be71155e1b6295731272f1f"
 
       define_method(:install) do
         bin.install "omnishell"
@@ -20,8 +20,8 @@ class Omnishell < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/JtheGunner/omnishell/releases/download/v0.3.0/omnishell_darwin_arm64.tar.gz"
-      sha256 "15fa3000a9b74ba92c764eb090edddb194fba4eb7914ed6ee9dc32b5e440b61f"
+      url "https://github.com/JtheGunner/omnishell/releases/download/v0.3.1/omnishell_darwin_arm64.tar.gz"
+      sha256 "d9b19edbf883c6bb2f105e195e456cce548c4c5116dbbaab65f68c16b4e1f8b4"
 
       define_method(:install) do
         bin.install "omnishell"
@@ -34,8 +34,8 @@ class Omnishell < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/JtheGunner/omnishell/releases/download/v0.3.0/omnishell_linux_amd64.tar.gz"
-      sha256 "29b2a04d4fb46e87ffa73052bc54109ef10d64da3d3d8b01b9c448d22e8794e1"
+      url "https://github.com/JtheGunner/omnishell/releases/download/v0.3.1/omnishell_linux_amd64.tar.gz"
+      sha256 "c8361601193ecec2719b54d97bfbed34eca5ffe9bdc931cd61788ffe0eccb989"
       define_method(:install) do
         bin.install "omnishell"
         bash_completion.install "completions/omnishell.bash" => "omnishell"
@@ -44,8 +44,8 @@ class Omnishell < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/JtheGunner/omnishell/releases/download/v0.3.0/omnishell_linux_arm64.tar.gz"
-      sha256 "f7f8bebbdfaeef0ee5711426409870bd9969718ce0ca7dde557b810090568f35"
+      url "https://github.com/JtheGunner/omnishell/releases/download/v0.3.1/omnishell_linux_arm64.tar.gz"
+      sha256 "e765c1b6e8a664544214b35d349d5574b5db9faff0f0491e630aa7adf908c0f8"
       define_method(:install) do
         bin.install "omnishell"
         bash_completion.install "completions/omnishell.bash" => "omnishell"
