@@ -22,7 +22,9 @@ or tap once, then install by name:
 
 ```sh
 brew tap JtheGunner/tap
+
 brew install omnishell
+brew install clipkeep
 ```
 
 ---
