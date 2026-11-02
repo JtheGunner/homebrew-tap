@@ -4,8 +4,8 @@
 cask "clipkeep" do
   arch arm: "arm64"
 
-  version "0.1.0"
-  sha256 "73481b229fc11a567a175540837c0121cd7515a77cb3bfb5fae34a525781d188"
+  version "0.1.1"
+  sha256 "43e82eb3634c4a3380ca2226c64692a1384f8979f9b891d68585aa716b8ec8f9"
 
   url "https://github.com/JtheGunner/clipkeep/releases/download/v#{version}/Clipkeep-#{version}.zip"
   name "Clipkeep"
