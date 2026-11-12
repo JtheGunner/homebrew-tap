@@ -1,0 +1,4 @@
+# <name> <emoji> — icon shown in the README tables; unlisted entries get 📦
+omnishell 🐚
+clipkeep 📋
+portwhy 🔌
