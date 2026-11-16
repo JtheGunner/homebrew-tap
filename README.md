@@ -36,6 +36,7 @@ Pick `<name>` from the tables below.
 |    | Formula | Description |
 |:--:|---|---|
 | 🐚 | [`omnishell`](Formula/omnishell.rb) | Modular, declarative terminal configuration for macOS and Linux ([repo](https://github.com/JtheGunner/omnishell)) |
+| 📦 | [`ticktack`](Formula/ticktack.rb) | Passive time tracker that turns git, shell and presence signals into reviewed YouTrack work items ([repo](https://github.com/JtheGunner/ticktack)) |
 
 <!-- formulae:end -->
 
