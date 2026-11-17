@@ -5,21 +5,21 @@
 class Ticktack < Formula
   desc "Passive time tracker that turns git, shell and presence signals into reviewed YouTrack work items"
   homepage "https://github.com/JtheGunner/ticktack"
-  version "0.3.2"
+  version "0.3.3"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/JtheGunner/ticktack/releases/download/v0.3.2/ticktack_0.3.2_darwin_amd64.tar.gz"
-    sha256 "ebc46b70944879240a6877e70c41f55c1bdb286e64d25bb1f9f5fb01e8162965"
+    url "https://github.com/JtheGunner/ticktack/releases/download/v0.3.3/ticktack_0.3.3_darwin_amd64.tar.gz"
+    sha256 "4b7c4e993f1cf4aacd2d141ce2a96b47bd080c963253b98d39b1381d591f6401"
 
     define_method(:install) do
       bin.install "ticktack"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/JtheGunner/ticktack/releases/download/v0.3.2/ticktack_0.3.2_darwin_arm64.tar.gz"
-    sha256 "140d891d8c14f4d6f10c0a241bdb90e0605490ee2697c23659c72cc59779a2a7"
+    url "https://github.com/JtheGunner/ticktack/releases/download/v0.3.3/ticktack_0.3.3_darwin_arm64.tar.gz"
+    sha256 "bfacd7984db4418c6ba34738070b82a0403ca45dcffc9e6937bf8101d2cf8488"
 
     define_method(:install) do
       bin.install "ticktack"
